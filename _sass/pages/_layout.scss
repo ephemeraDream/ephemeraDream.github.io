@@ -9,7 +9,7 @@
   z-index: 1;
   @include media-query($small-screen) {
     background:$background-color url("../../img/leftbarBgTwo.png") center bottom no-repeat;
-    background-position: center;
+    //background-position: center;
     padding: 30px;
   }
   @include media-query($medium-screen) {
