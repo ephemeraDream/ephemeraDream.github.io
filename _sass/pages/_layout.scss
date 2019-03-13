@@ -8,10 +8,12 @@
   padding: 30px 15px 20px;
   z-index: 1;
   @include media-query($small-screen) {
+    background:$background-color url("../../img/leftbarBgTwo.png") center bottom no-repeat;
     background-position: center;
     padding: 30px;
   }
   @include media-query($medium-screen) {
+    background:$background-color url("../../img/leftbarBg.png") left top no-repeat;
     height: 100vh;
     position: initial;
     width: 100%;
