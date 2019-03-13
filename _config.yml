@@ -36,8 +36,8 @@ owner:
   name: 惟忆朝颜暮语
   avatar: leonids-logo.png
   job: "疏影离殇"
-  bio: "疏月残光映妆台，影泛孑然独徘徊。
-        离人欲忆却无忆，殇情非情勿归来。"
+  bioOne: "疏月残光映妆台，影泛孑然独徘徊。"
+  bioTwo: "离人欲忆却无忆，殇情非情勿归来。"
   email:
   disqus-shortname:
   twitter: #username
