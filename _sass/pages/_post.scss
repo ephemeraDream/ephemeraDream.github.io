@@ -9,11 +9,11 @@
   -webkit-transform: translate3d(0,0,1px);
   transform: translate3d(0,0,1px);
   @include media-query($small-screen) {
-    background: url("../../img/rightbarBgTwo.png") center bottom no-repeat;
+    background:$white url("../../img/rightbarBgTwo.png") center bottom no-repeat;
     padding: 50px 30px 0;
   }
   @include media-query($medium-screen) {
-    background: url("../../img/rightbarBg.png") right top no-repeat;
+    background:$white url("../../img/rightbarBg.png") right top no-repeat;
     height: 100vh;
     overflow-y: scroll;
     position: initial;
