@@ -17,9 +17,17 @@
     width: 100%;
   }
 }
+.leftbarBg{
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
 .cover-card {
   color: $text-color;
   padding: 0 30px;
+  position: relative;
   .avatar {
     border-radius: 50%;
     width: 100px;
