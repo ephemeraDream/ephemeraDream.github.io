@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email:
-description: A simple and awesome blog theme powered by jekyll.
+title: 惟忆朝颜暮语
+email: 568674236@qq.com
+description: 随手整理记录的一些前端知识点和小技巧
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["博客", "前端"]
 
 #
 ###################################
@@ -33,11 +33,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: 惟忆朝颜暮语
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "疏影离殇"
+  bio: "疏月残光映妆台，影泛孑然独徘徊。离人欲忆却无忆，殇情非情勿归来。"
+  email: "568674236@qq.com"
   disqus-shortname:
   twitter: #username
   facebook: #username
