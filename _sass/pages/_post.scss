@@ -1,4 +1,15 @@
 // Post listing
+#toTop{
+  font-size: 46px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  color: #ababab;
+}
+#toTop:hover{
+  color: #329afd;
+}
 .post-listing {
   background-color: $white;
   position: absolute;
