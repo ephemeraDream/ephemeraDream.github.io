@@ -25,7 +25,7 @@ ElementUI是饿了么推出的一套基于vue2.x的一个ui框架。官方文档
 
 ##### 情景1: 设置选择今天以及今天之后的日期
 
-```
+~~~ js
 data (){
    return {
        pickerOptions0: {
@@ -35,11 +35,11 @@ data (){
         },  
    }     
 } 
-```
+~~~ 
 
 ##### 情景2: 设置选择今天以及今天以前的日期
 
-```
+~~~ js
 data (){
    return {
        pickerOptions0: {
@@ -49,11 +49,11 @@ data (){
         },  
    }     
 } 
-```
+~~~ 
 
 ##### 情景3: 设置选择今天之后的日期（不能选择当天时间）
 
-```
+~~~ js
 data (){
    return {
        pickerOptions0: {
@@ -63,11 +63,11 @@ data (){
         },  
    }     
 } 
-```
+~~~ 
 
 ##### 情景4: 设置选择今天之前的日期（不能选择当天）
 
-```
+~~~ js
 data (){
    return {
        pickerOptions0: {
@@ -77,11 +77,11 @@ data (){
         },  
    }     
 }
-```
+~~~ 
 
 ##### 情景5: 设置选择三个月之前到今天的日期
 
-```
+~~~ js
 data (){
    return {
        pickerOptions0: {
@@ -94,14 +94,13 @@ data (){
         },  
    }     
 } 
-```
+~~~ 
 
 ### 两个输入框
 
 ##### 组件代码：
 
-{% highlight html %}
-{% raw %}
+~~~ html
 <el-date-picker
        v-model="value1"
        type="date"
@@ -114,12 +113,11 @@ data (){
        placeholder="结束日期"
        :picker-options="pickerOptions1">
 </el-date-picker>
-{% endraw %}
-{% endhighlight %}
+~~~ 
 
 ##### 情景1: 限制结束日期不能大于开始日期
 
-```
+~~~ js
 data(){
     return {
          pickerOptions0: {
@@ -139,7 +137,7 @@ data(){
             },
     }      
 }  
-```
+~~~ 
 
 针对选择范围(type=`"daterange"`)的日期筛选，类似于单个输入框的情况，直接使用参数time进行判断
 
