@@ -6,7 +6,7 @@ comments: true
 ---
 ElementUI是饿了么推出的一套基于vue2.x的一个ui框架。官方文档也很详细，这里做一个element-ui日期插件的补充。
 
-官方文档中使用picker-options属性来限制可选择的日期，这里举例子稍做补充。
+官方文档中使用`picker-options`属性来限制可选择的日期，这里举例子稍做补充。
 
 <!--more-->
 
@@ -139,7 +139,7 @@ data(){
 }  
 ~~~ 
 
-针对选择范围(type=`"daterange"`)的日期筛选，类似于单个输入框的情况，直接使用参数time进行判断
+针对选择范围(type=`"daterange"`)的日期筛选，类似于单个输入框的情况，直接使用参数`time`进行判断
 
 
 
