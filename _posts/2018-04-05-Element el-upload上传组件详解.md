@@ -110,9 +110,6 @@ upload上传是前端开发很常用的一个功能，在Vue开发中常用的El
 ~~~ 
 
 实现方法就是`:file-list="files"`这个属性的添加，其中`files`是绑定的数组对象，初始为空。
-效果如下图：
-
-![](https://image-static.segmentfault.com/319/115/3191150310-5aac7b37c877d_articlex "图片描述")
 
 ### 上传时提交数据
 
